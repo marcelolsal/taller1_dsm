@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Taller1</string>
+    <string name="selected_item">Selected item:</string>
+
+    <string-array name="Languages">
+        <item>Sumar</item>
+        <item>Restar</item>
+        <item>Multiplicar</item>
+        <item>Dividir</item>
+    </string-array>
+</resources>

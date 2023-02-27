@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayoutGrades"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView android:id="@+id/lblNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digita Tu Nombre"></TextView>
+    <EditText
+        android:id="@+id/TxtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"></EditText>
+    <TextView android:id="@+id/lblNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digita Tu Nota 1"></TextView>
+    <EditText
+        android:id="@+id/TxtNota1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"></EditText>
+    <TextView android:id="@+id/lblNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digita Tu Nota 2"></TextView>
+    <EditText
+        android:id="@+id/TxtNota2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"></EditText>
+    <TextView android:id="@+id/lblNota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digita Tu Nota 3"></TextView>
+    <EditText
+        android:id="@+id/TxtNota3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"></EditText>
+    <TextView android:id="@+id/lblNota4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digita Tu Nota 4"></TextView>
+    <EditText
+        android:id="@+id/TxtNota4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"></EditText>
+    <TextView android:id="@+id/lblNota5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Digita Tu Nota 5"></TextView>
+    <EditText
+        android:id="@+id/TxtNota5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"></EditText>
+    <Button android:id="@+id/BtnCalcular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Calcular"
+        android:onClick="CalculateGrade"></Button>
+    <TextView android:id="@+id/lblResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tu Resultado es:"></TextView>
+
+</LinearLayout>
